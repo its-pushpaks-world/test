@@ -2,7 +2,7 @@
 
 terraform {
   backend "s3" {
-    bucket = "jenkins-bucket-pushpak-43982789"
+    bucket = "pushpak-terraform-training"
     key    = "remote.tfstate"
     region = "ap-south-1"
   }
